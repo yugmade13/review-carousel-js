@@ -95,7 +95,7 @@ h2 {
     margin-left: 8px;
 }
 
-.btn-suprise {
+.btn-surprise {
     font-size: 10px;
     margin: 0 auto;
     display: block;
@@ -106,13 +106,13 @@ h2 {
     border-radius: 10px;
 }
 
-.btn-suprise:hover {
+.btn-surprise:hover {
     color: #fff;
     background-color: rgba(0, 98, 255, 0.696);
     box-shadow: rgba(0, 98, 255, 0.15) 0px 2px 8px;
 }
 
-.btn-suprise:active {
+.btn-surprise:active {
     box-shadow: 0px 0px 10px 0px rgba(0, 98, 255, 0.696);
 }
 
@@ -139,7 +139,7 @@ h2 {
         font-size: 1rem;
     }
 
-    .btn-suprise {
+    .btn-surprise {
         font-size: 14px;
     }
 }

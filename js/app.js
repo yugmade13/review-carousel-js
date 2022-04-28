@@ -43,7 +43,7 @@ const review = document.getElementById('review');
 
 const prevButton = document.querySelector('.btn-left');
 const nextButton = document.querySelector('.btn-right');
-const randomButton = document.querySelector('.btn-suprise');
+const randomButton = document.querySelector('.btn-surprise');
 
 let currentItem = 0;
 
