@@ -59,11 +59,11 @@ h2 {
 .text-review {
     height: 85px;
     margin-top: 12px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .text {
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(86, 86, 86);
 }
 
