@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(86, 86, 86);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(174, 174, 174, 0.479);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card:hover {
+    border: 1px solid rgba(0, 98, 255, 0.358);
+    box-shadow: rgba(0, 98, 255, 0.15) 0px 2px 8px;
+}
+
+.image {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 98, 255, 0.358);
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 5px;
+}
+
+.title {
+    font-size: 14px;
+    letter-spacing: .07rem;
+    color: rgb(86, 86, 86);
+}
+
+.subtitle {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: rgba(0, 98, 255, 0.79);
+    letter-spacing: .05rem;
+}
+
+.text-review {
+    height: 85px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.text {
+    font-size: 12px;
+    color: rgb(86, 86, 86);
+}
+
+.btn-group {
+    margin: 8px;
+    align-items: center;
+}
+
+.btn {
+    font-size: 14px;
+    color: darkgray;
+    background-color: transparent;
+    padding: 4px 8px;
+    margin-top: 4px;
+    border: none;
+    transition: all .5s;
+}
+
+.btn:active {
+    border-radius: 50%;
+    box-shadow: rgba(210, 210, 210, 0.68) 0px 2px 8px;
+}
+
+.btn-left {
+    margin-right: 8px;
+}
+
+.btn-right {
+    margin-left: 8px;
+}
+
+.btn-suprise {
+    font-size: 10px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 12px;
+    border: 2px solid rgba(0, 98, 255, 0.256);
+    background-color: transparent;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.btn-suprise:hover {
+    color: #fff;
+    background-color: rgba(0, 98, 255, 0.696);
+    box-shadow: rgba(0, 98, 255, 0.15) 0px 2px 8px;
+}
+
+.btn-suprise:active {
+    box-shadow: 0px 0px 10px 0px rgba(0, 98, 255, 0.696);
+}
+
+@media screen and (min-width: 500px) {
+    .card {
+        width: 400px;
+        height: 410px;
+    }
+
+    .image {
+        width: 125px;
+        height: 125px;
+    }
+
+    .title {
+        font-size: 1.15rem;
+    }
+
+    .subtitle {
+        font-size: .85rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .btn-suprise {
+        font-size: 14px;
+    }
+}
